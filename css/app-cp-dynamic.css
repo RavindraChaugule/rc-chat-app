@@ -1,0 +1,71 @@
+.mb-txt{
+	display: none;
+}
+.mb-txt.active{
+	display: block;
+}
+.txt-area p{
+	padding: 10px 20px;
+	border:1px solid #ccc;
+	font-size: 13px;
+	border-radius: 5px;
+	background: #f0f0f0;
+}
+.txt-area p:first-child{
+	margin-top: 15px;
+}
+.txt-area p span{
+	font-weight: 600;
+	font-size: 12px;
+	font-style: italic;
+	display: block;
+	border-bottom: 1px dashed #ddd;
+}
+.reply{
+	color: #2199e8;
+	font-size: 13px;
+	text-align: right;
+	cursor: pointer;
+	float: right;
+	display: none;
+}
+.rplbox button{
+	float: right;
+}
+.txt-area p.urmsg{
+	/*background: #aaa;
+	color: #333;*/
+}
+.mw-box{
+	padding: 10px 20px;
+	border: 2px solid #eee;
+	margin-bottom: 15px;
+}
+.mw-box:after{
+	clear: both;
+	content: ' ';
+	display: table;
+	width: 100%;
+}
+.mw-box h5{
+	margin: 0;
+}
+.list-wrap{
+	display: none;
+}
+#groupMembers input[type="text"]{
+	float: right;
+	width:65%;
+}
+#groupMembers .button{
+	margin-left:20px;
+	float: right;
+}
+#groupMembers:after{
+	content: ' ';
+	clear: both;
+	display: table;
+}
+#addNewMember{
+	float: right;
+}

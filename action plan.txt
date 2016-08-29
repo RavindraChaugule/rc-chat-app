@@ -1,0 +1,4 @@
+1. Create static anatomy.
+2. Set selectors IDs / classes.
+3. Local Storage / Session storage
+4. Append data
